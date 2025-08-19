@@ -92,7 +92,7 @@ namespace CalculadoraIMC
             }
             else if (resultado >=25 & resultado<=29.9)
             {
-                lblSaude.ForeColor = Color.Yellow;
+                lblSaude.ForeColor = Color.Orange;
                 lblSaude.BackColor = Color.White;
                 lblSaude.Text = ("Sobrepeso");    
             }
